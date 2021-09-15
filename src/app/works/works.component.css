@@ -1,0 +1,12 @@
+.row .col-lg-4:nth-child(odd) img:hover{
+
+    opacity: .8;
+    transform: scale(.9);
+    transition: all 1.2s ease-out;
+}
+ .row .col-lg-4:nth-child(even) img:hover{
+
+
+    transform: rotate(30deg);
+    transition: all 1s ease-out;
+}
